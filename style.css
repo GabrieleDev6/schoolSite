@@ -1,0 +1,278 @@
+::selection {
+  background: #ff6f00e5; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: #ff6f00e5; /* Gecko Browsers */
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  background-color: #EEEEEE;
+}
+
+
+nav {
+  position: static;
+  top: 0;
+  background-color: black;
+  padding: 1%;
+}
+
+.logo {
+  position: relative;
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 15px;
+  font-size: 22px;
+  font-weight: 900;
+  text-transform: uppercase;
+  border-radius: 360px;
+  transition: all 0.25s ease-out;
+
+  color: #EEEEEE;
+}
+
+.dropbtn {
+  background-color: black;
+  color: #EEEEEE;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 360px;
+  transition: all 0.25s ease-out;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ff6f00;
+  min-width: 125px;
+  box-shadow: 5px 5px 10px 1px #5b5b5b;
+  z-index: 1;
+
+  border-radius: 21px;
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 360px;
+
+}
+
+.dropdown-content a:hover {
+  background-color: #eeeeee40;
+  transition: all 0.25s ease-out;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #eeeeee40;
+  color: #ff6f00;
+}
+
+
+.logo:hover {
+  background-color: #eeeeee40;
+  color: #ff6f00;
+}
+
+.logo:link {
+  text-decoration: none;
+}
+
+.logo:visited {
+  text-decoration: none;
+}
+
+.logo:hover {
+  text-decoration: none;
+}
+
+.logo:active {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h2 {
+  padding-top: 5%;
+  text-align: center;
+  font-size: xx-large;
+  padding-bottom: 2%;
+}
+
+p {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: justify;
+}
+
+.text a {
+  color: black;
+  text-decoration: underline #DC5F00;
+  transition: all 0.25s;
+}
+
+.text a:hover {
+  color: #DC5F00;
+  text-decoration: underline #DC5F00;
+  text-shadow: #DC5F00;
+}
+
+.text a:active {
+  text-decoration: underline #ff6f00;
+  color: #ff6f00;
+}
+
+.text a:visited {
+  text-decoration: ".text a{}";
+}
+
+img {
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px 1px #333333;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  transition: all 0.25s ease-in;
+}
+
+img#g1:hover {
+  box-shadow: 0px 0px 10px 10px #8a6045;
+  transform: scale(1.5);
+}
+
+img#v1:hover {
+  box-shadow: 0px 0px 10px 10px #5b5b5b;
+  transform: scale(1.5);
+}
+
+img#v2:hover {
+  box-shadow: 0px 0px 10px 10px #89724d;
+  transform: scale(1.5);
+}
+
+
+.indice {
+  background-color: #EEEEEE;
+  border-color: #DC5F00;
+  border-radius: 10px;
+  border-style: solid;
+  padding: 0.5%;
+  width: 25%;
+  margin-bottom: 2%;
+  box-shadow: 0px 0px 10px 2.5px#DC5F00;
+}
+
+.indice h3 {
+  font-size: 25px;
+}
+
+.indice h4 {
+  padding-top: 2.5%;
+}
+
+.indice ul {
+  list-style-type: none;
+}
+
+.indice a {
+  color: black;
+  text-decoration: underline #DC5F00;
+  transition: all 0.25s;
+}
+
+.indice a:hover {
+  color: #DC5F00;
+  text-decoration: underline #DC5F00;
+  font-size: 16.5px;
+}
+
+.indice a:active {
+  text-decoration: underline #ff6f00;
+  color: #ff6f00;
+}
+
+.indice a:visited {
+  text-decoration: ".indice a{}";
+}
+
+
+
+
+
+
+
+/* footer{
+  background-color: black;
+  color: #EEEEEE;
+  position: relative;
+  bottom: 100%;
+  padding: 5%;
+  margin-top: 100%;
+  max-width: 1170px;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer a{
+  color: #EEEEEE;
+  text-decoration: underline #DC5F00;
+}
+
+footer a:hover {
+  color: #DC5F00;
+  text-decoration: underline #DC5F00;
+}
+
+footer a:active {
+  text-decoration: underline #ff6f00;
+  color: #ff6f00;
+}
+
+footer a:visited {
+  text-decoration: "footer a{}";
+}
+
+footer p{
+  font-size: 12px;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col{
+  width: 35%;
+  padding: 0 15px;
+}
+.col h5{
+  color: #DC5F00;
+} */
