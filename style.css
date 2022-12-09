@@ -6,6 +6,17 @@
   background: #ff6f00e5; /* Gecko Browsers */
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #DC5F00;
+  border-radius: 10px;
+}
+
+
 body {
   font-family: "Helvetica", sans-serif;
   background-color: #EEEEEE;
