@@ -9,7 +9,6 @@
 body {
   font-family: "Helvetica", sans-serif;
   background-color: #EEEEEE;
-  padding-bottom: 15%;
 }
 
 
@@ -139,7 +138,6 @@ p {
 .text a:hover {
   color: #DC5F00;
   text-decoration: underline #DC5F00;
-  text-shadow: #DC5F00;
 }
 
 .text a:active {
@@ -225,27 +223,40 @@ img#v2:hover {
 
 
 
-
-
-
-
-/* footer{
-  background-color: black;
+footer {
+  background-color: #000000;
   color: #EEEEEE;
-  position: relative;
-  bottom: 100%;
-  padding: 5%;
-  margin-top: 100%;
-  max-width: 1170px;
+  
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 1%;
+  padding-bottom: 1.5%;
+  margin-top: 30%;
+
+  display: flex;
+  flex-wrap: wrap;
 }
 
-footer ul{
-  list-style: none;
+.column{
+  display: inline-block;
+  width: 33%;
+}
+
+.column h4{
+  font-size: 15px;
+}
+.column p {
+  font-size: 13px;
+}
+
+.column a {
+  font-size: 13px;
 }
 
 footer a{
   color: #EEEEEE;
   text-decoration: underline #DC5F00;
+  transition: all 0.25s;
 }
 
 footer a:hover {
@@ -261,20 +272,3 @@ footer a:active {
 footer a:visited {
   text-decoration: "footer a{}";
 }
-
-footer p{
-  font-size: 12px;
-}
-
-.row{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.col{
-  width: 35%;
-  padding: 0 15px;
-}
-.col h5{
-  color: #DC5F00;
-} */
