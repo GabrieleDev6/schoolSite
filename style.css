@@ -7,13 +7,12 @@
 }
 
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 5px;
   background-color: black;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #DC5F00;
-  border-radius: 10px;
 }
 
 
@@ -177,16 +176,51 @@ img#g1:hover {
   transform: scale(1.5);
 }
 
+img#g2:hover {
+  box-shadow: 0px 0px 10px 10px #4f4a48;
+  transform: scale(1.5);
+}
+
+img#g3:hover {
+  box-shadow: 0px 0px 10px 10px #7f999c;
+  transform: scale(1.5);
+}
+
+img#g4:hover {
+  box-shadow: 0px 0px 10px 10px #68462f;
+  transform: scale(1.5);
+}
+
+img#g5:hover {
+  box-shadow: 0px 0px 10px 10px #5e5d5d;
+  transform: scale(1.5);
+}
+
+
 img#v1:hover {
-  box-shadow: 0px 0px 10px 10px #5b5b5b;
+  box-shadow: 0px 0px 10px 10px #4f391a;
   transform: scale(1.5);
 }
 
 img#v2:hover {
-  box-shadow: 0px 0px 10px 10px #89724d;
+  box-shadow: 0px 0px 10px 10px #6b6b6b;
   transform: scale(1.5);
 }
 
+img#v3:hover {
+  box-shadow: 0px 0px 10px 10px #cfc69b;
+  transform: scale(1.5);
+}
+
+img#v4:hover {
+  box-shadow: 0px 0px 10px 10px #5e6e4a;
+  transform: scale(1.5);
+}
+
+img#v5:hover {
+  box-shadow: 0px 0px 10px 10px #89724d;
+  transform: scale(1.5);
+}
 
 .indice {
   background-color: #EEEEEE;
@@ -240,9 +274,9 @@ footer {
   
   padding-left: 25%;
   padding-right: 25%;
-  padding-top: 1%;
-  padding-bottom: 1.5%;
-  margin-top: 30%;
+  padding-top: 1.5%;
+  padding-bottom: 2.5%;
+  margin-top: 20%;
 
   display: flex;
   flex-wrap: wrap;
@@ -250,7 +284,8 @@ footer {
 
 .column{
   display: inline-block;
-  width: 33%;
+  width: 30%;
+  padding: 1%;
 }
 
 .column h4{
@@ -282,4 +317,19 @@ footer a:active {
 
 footer a:visited {
   text-decoration: "footer a{}";
+}
+
+#tanaro:hover{
+    
+}
+
+
+.popup{
+  position: absolute;
+
+  display: none;
+  width: fit-content;
+  border-radius: 20px;
+  background-color: #DC5F00;
+  padding: 15px;
 }
