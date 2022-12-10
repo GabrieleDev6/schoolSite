@@ -7,12 +7,13 @@
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 7.5px;
   background-color: black;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #DC5F00;
+  border-radius: 20px;
 }
 
 
@@ -318,11 +319,6 @@ footer a:active {
 footer a:visited {
   text-decoration: "footer a{}";
 }
-
-#tanaro:hover{
-    
-}
-
 
 .popup{
   position: absolute;
